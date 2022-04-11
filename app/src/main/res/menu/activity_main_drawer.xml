@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_white_24dp"
+            android:title="@string/home_page" />
+        <item android:title="@string/create_new_pdfs">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_camera"
+                        android:icon="@drawable/ic_menu_camera"
+                        android:title="@string/create_pdf" />
+                    <item
+                        android:id="@+id/nav_text_to_pdf"
+                        android:icon="@drawable/ic_text_format_black_24dp"
+                        android:title="@string/text_to_pdf" />
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="@string/view_pdfs">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_gallery"
+                        android:icon="@drawable/ic_menu_gallery"
+                        android:title="@string/viewFiles" />
+                    <item
+                        android:id="@+id/nav_history"
+                        android:icon="@drawable/ic_history_black_24dp"
+                        android:title="@string/history" />
+                </group>
+
+            </menu>
+        </item>
+        <item android:title="@string/more_options">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_extract_images"
+                        android:icon="@drawable/ic_broken_image_black_24dp"
+                        android:title="@string/extract_images" />
+                    <item
+                        android:id="@+id/nav_pdf_to_images"
+                        android:icon="@drawable/ic_image_black_24dp"
+                        android:title="@string/pdf_to_images" />
+                </group>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
+
